@@ -11,7 +11,7 @@ const config = {
   },
 
   url: 'https://andrelamor.github.io/',
-  baseUrl: '/',
+  baseUrl: '/teste-ousau/',
   organizationName: 'OUSAU', 
   projectName: 'site', 
   onBrokenLinks: 'warn',
