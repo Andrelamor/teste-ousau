@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <Layout
       title={`Início | ${siteConfig.title}`}
-      description="Ouvidoria de Saúde - OGE">
+      description="Sistema Estadual de Ouvidorias de Saúde - SEOS/MG">
       <HomepageHeader />
 
       <main>
@@ -69,35 +69,35 @@ export default function Home() {
                 iconName="mdi:pill"
                 title="SEOS"
                 description="Base legal, contexto, documentos, paineis e relatórios"
-                link="/docs/SEOS"
+                link="/teste-ousau/docs/SEOS"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="material-symbols:computer-outline-rounded"
                 title="OuvidorSUS"
                 description="Adesão e inclusão; operação e tutoriais"
-                link="/docs/Sistema OuvidorSUS"
+                link="/teste-ousau/docs/Sistema OuvidorSUS"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:map-add"
                 title="Criar Ouvidoria"
                 description="Cartilhas, Guias e Manuais"
-                link="/docs/Criar Ouvidoria"
+                link="/teste-ousau/docs/Criar Ouvidoria"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:book-open-variant"
                 title="Agenda e capacitações"
                 description="Apresentações, Capacitações e Eventos"
-                link="/docs/Agenda e capacitações"
+                link="/teste-ousau/docs/Agenda e capacitações"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="arcticons:microsoft-power-bi"
                 title="Painéis B.I"
                 description="Status de manifestações de ouvidorias de saúde"
-                link="/docs/SEOS/Painéis e Relatórios#secao-bi"
+                link="/teste-ousau/docs/SEOS/Painéis e Relatórios#secao-bi"
                 linkText="Acessar"
               />
 
